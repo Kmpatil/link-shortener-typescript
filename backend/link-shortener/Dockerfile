@@ -1,4 +1,4 @@
-FROM node:16
+FROM ubuntu:latest
 
 COPY . .
 WORKDIR /app
